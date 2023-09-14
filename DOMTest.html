@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="myHeader" class="myheaderclass">This is a Heading</h1>
+    
+    <div id="container">
+        
+    </div>
+    
+    <script>
+
+let newElement = document.createElement('h1');
+
+newElement.setAttribute('id','newHeader');
+
+newElement.innerHTML = "NEW HEADER";
+
+// document.querySelector('body').append(newElement);
+
+// to Put in a container
+let container = document.querySelector('#container')
+
+container.append(newElement);
+
+    </script>
+
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+  
+
